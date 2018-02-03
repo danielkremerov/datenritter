@@ -5,6 +5,7 @@
   jQuery(window).load(function() {
     jQuery("#preloader").delay(100).fadeOut("slow");
     jQuery("#load").delay(100).fadeOut("slow");
+    console.log('version 2');
   });
 
 
@@ -41,7 +42,7 @@
     });
 
   });
-	
+
 	var navMain = $(".navbar-collapse");
 	navMain.on("click", "a:not([data-toggle])", null, function () {
 	   navMain.collapse('hide');
